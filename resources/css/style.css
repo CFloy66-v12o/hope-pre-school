@@ -14,5 +14,25 @@ background-color: black;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  
+}
+
+span {
+  display: flex
+}
+
+span  {
+  disply: flex;
+  justify-content: center;
+  color: #b30000;
+
+}
+
+.link a:hover {
+  color: #00ff00;
+}
+
+.link a:active {
+  position: relative;
+  top: 2px;
+  right: 2px;
 }
