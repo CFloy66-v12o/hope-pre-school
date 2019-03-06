@@ -36,3 +36,14 @@ span  {
   top: 2px;
   right: 2px;
 }
+
+.creator {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 38.6rem;
+}
+
+.creator span {
+  font-size: .8rem;
+}
