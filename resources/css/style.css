@@ -10,40 +10,119 @@ body {
 background-color: black;
 }
 
+.container {
+  width: 100%;
+  background-color: #ff6666;
+  height: 12.5rem;
+  border-radius: 20% 20% 20% 20%;
+  border: 2px solid  #cc0000;
+}
+
+.link a {
+  font-size: 1.4rem;
+}
+
+.container a:link {
+  color: #ff0000;
+}
+
+.container a:hover {
+  cursor: col-resize;
+}
+
+
+.container a:active {
+  position: relative;
+  top: 3px;
+  right: 3px;
+}
+
+
 .logos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 
-span {
-  display: flex
+.joes img {
+  height: 12.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25%;
+  opacity: 4%;
+  border: 1px solid black;
 }
 
-span  {
-  disply: flex;
-  justify-content: center;
-  color: #b30000;
+.hope img {
+  height: 12.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25%;
+  border: 1px solid black;
+}
 
+/* link */
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
 }
 
 .link a:hover {
-  color: #00ff00;
+  color:  #ffcccc;
+  font-size: 1.9rem;
+  cursor: crosshair;
 }
+
 
 .link a:active {
   position: relative;
-  top: 2px;
-  right: 2px;
+  top: 5px;
+  right: 5px;
+  border: 3px solid #ffcccc;
+  border-radius: 15%;
+}
+
+/* information */
+.information {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  font-size: 1.4rem;
+  font-family: Helvetica, Georgia, sans-serif;
+}
+
+.information a:hover {
+  font-size: 1.5rem;
+  border: 3px solid #ffcccc;
+  border-radius: 15%;
+}
+
+.information a:active {
+  position: relative;
+  top: 3px;
+  right: 3px;
+}
+
+.note {
+  text-decoration: underline;
 }
 
 .creator {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  height: 38.6rem;
+  display: inline-block;
+
+  height: 10rem;
 }
 
-.creator span {
+footer {
   font-size: .8rem;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.creator span:hover {
+  font-size: 1rem;
+  color: #0000ff;
 }
