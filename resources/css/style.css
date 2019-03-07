@@ -1,7 +1,32 @@
 @charset "UTF-8"
 
 
-html {
+@page  {
+  size: 8.5in 11in;
+  margin: 2cm;
+}
+
+@page {
+  size: portrait;
+}
+
+@page {
+  rotated {size : landscape }
+  table { page : rotated }
+}
+
+@media screen and {min-device-width: 480px} {
+  .container {
+    max-width: 480px;
+    min-width: 1280px;
+  }
+
+}
+
+
+
+
+}html {
   font-size: 18px;
 
 }
