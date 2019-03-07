@@ -17,8 +17,8 @@
 
 @media screen and {min-device-width: 480px} {
   .container {
-    max-width: 480px;
-    min-width: 1280px;
+    min-width: 480px;
+    max-width: 1280px;
   }
 
 }
@@ -28,15 +28,16 @@
 
 }html {
   font-size: 18px;
-
+  width: 1280px;
 }
 
 body {
 background-color: black;
 }
 
+
 .container {
-  width: 100%;
+  width: 160rem;
   background-color: #ff6666;
   height: 12.5rem;
   border-radius: 20% 20% 20% 20%;
@@ -47,19 +48,15 @@ background-color: black;
   font-size: 1.4rem;
 }
 
-
-
 .container a:hover {
   cursor: col-resize;
 }
-
 
 .container a:active {
   position: relative;
   top: 3px;
   right: 3px;
 }
-
 
 .logos {
   display: flex;
@@ -97,7 +94,6 @@ background-color: black;
   font-size: 1.9rem;
   cursor: crosshair;
 }
-
 
 .link a:active {
   position: relative;
