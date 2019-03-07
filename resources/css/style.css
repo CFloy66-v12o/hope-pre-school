@@ -111,15 +111,15 @@ background-color: black;
 }
 
 .creator {
-  display: inline-block;
-
-  height: 10rem;
-}
-
-footer {
-  font-size: .8rem;
+  display: flex;
   align-items: flex-end;
   justify-content: center;
+  height: 20.7rem;
+}
+
+.creator span {
+  font-size: .8rem;
+  
 }
 
 .creator span:hover {
