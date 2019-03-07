@@ -22,9 +22,7 @@ background-color: black;
   font-size: 1.4rem;
 }
 
-.container a:link {
-  color: #ff0000;
-}
+
 
 .container a:hover {
   cursor: col-resize;
@@ -96,9 +94,10 @@ background-color: black;
 
 .information a:hover {
   font-size: 1.5rem;
-  border: 3px solid #ffcccc;
   border-radius: 15%;
+  color: #ffcccc;
 }
+
 
 .information a:active {
   position: relative;
@@ -119,7 +118,7 @@ background-color: black;
 
 .creator span {
   font-size: .8rem;
-  
+
 }
 
 .creator span:hover {
