@@ -146,3 +146,7 @@ background-color: black;
   font-size: 1rem;
   color: #0000ff;
 }
+
+ span img:hover {
+  size: 6rem;
+}
