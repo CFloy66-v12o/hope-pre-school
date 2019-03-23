@@ -42,8 +42,10 @@ background-color: black;
   background-color: #ff6666;
   height: 12.5rem;
   border-radius: 20px 20px 20px 20px;
-  border: 2px solid  #cc0000;
+  border: 2px solid black;
 }
+
+
 
 .link a {
   font-size: 1.4rem;
@@ -66,7 +68,8 @@ background-color: black;
 }
 
 .joes img {
-  height: 12.5rem;
+  margin-top: 0.1rem;
+  height: 12rem;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 25px;
@@ -75,7 +78,8 @@ background-color: black;
 }
 
 .hope img {
-  height: 12.5rem;
+  margin-top: 0.1rem;
+  height: 12rem;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 25px;
