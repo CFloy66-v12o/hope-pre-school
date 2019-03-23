@@ -40,7 +40,7 @@ background-color: black;
   width: 160rem;
   background-color: #ff6666;
   height: 12.5rem;
-  border-radius: 20% 20% 20% 20%;
+  border-radius: 20px 20px 20px 20px;
   border: 2px solid  #cc0000;
 }
 
@@ -68,7 +68,7 @@ background-color: black;
   height: 12.5rem;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 25%;
+  border-radius: 25px;
   opacity: 4%;
   border: 1px solid black;
 }
@@ -77,7 +77,7 @@ background-color: black;
   height: 12.5rem;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 25%;
+  border-radius: 25px;
   border: 1px solid black;
 }
 
