@@ -15,7 +15,7 @@
   table { page : rotated }
 }
 
-@media screen and {min-device-width: 480px} {
+@media screen and (device-min-width: 480px) {
   .container {
     min-width: 480px;
     max-width: 1280px;
@@ -25,19 +25,20 @@
 
 
 
-
-}html {
+/* universal styles */
+html {
   font-size: 18px;
-  width: 1280px;
+  width: 100%;
 }
 
 body {
 background-color: black;
 }
 
-
+/* content */
 .container {
-  width: 160rem;
+  margin-top: 0.3rem;
+  width: 100%;
   background-color: #ff6666;
   height: 12.5rem;
   border-radius: 20px 20px 20px 20px;
@@ -91,7 +92,7 @@ background-color: black;
 
 .link a:hover {
   color:  #ffcccc;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   cursor: crosshair;
 }
 
@@ -100,7 +101,8 @@ background-color: black;
   top: 5px;
   right: 5px;
   border: 3px solid #ffcccc;
-  border-radius: 15%;
+  border-radius: 15px;
+  background-color: rgba(255,0,0,0.8);
 }
 
 /* information */
@@ -124,6 +126,13 @@ background-color: black;
   position: relative;
   top: 3px;
   right: 3px;
+}
+
+.gracias:hover {
+  font-size: 3rem;
+  transition: all 1s ease-out;
+  color: rgba(255,0,0,0.8);
+  text-decoration: underline;
 }
 
 .note {
